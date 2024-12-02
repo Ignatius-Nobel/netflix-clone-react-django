@@ -1,0 +1,38 @@
+.hero {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: end;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner {
+  width: 45%;
+  margin-left: 3%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.banner-buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: start;
+}
+.banner-buttons .btn {
+  padding-inline: 20px;
+  padding-block: 5px;
+  font-weight: 700;
+  border-radius: 2px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+
+.banner-buttons .btn:hover {
+  background-color: #111;
+  color: white;
+}

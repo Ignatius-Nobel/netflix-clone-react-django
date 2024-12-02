@@ -1,0 +1,41 @@
+.footer{
+    width: 80%;
+    margin-inline: auto;
+    padding-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+.footer-logo{
+    display: flex;
+    gap: 20px;
+}
+.logo{
+    font-size: 24px;
+}
+table{
+    font-size: 13px;
+    font-weight: 400;
+    color: gray;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 1rem;
+}
+table > tr{
+    gap: 10px;
+}
+
+.footer p{
+    border: 1px solid gray;
+    width: fit-content;
+    padding: 5px;
+    font-size: 13px;
+    color: gray;
+}
+.footer span{
+    width: fit-content;
+    padding: 5px;
+    font-size: 13px;
+    color: gray;
+}
